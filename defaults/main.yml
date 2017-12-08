@@ -14,7 +14,7 @@ grafana_dir_plugins: /var/lib/grafana/plugins
 grafana_http_port: 3000
 grafana_group: grafana
 grafana_user: grafana
-grafana_pid_file_dir: /var/run
+grafana_pid_file_dir: /var/run/grafana
 
 grafana_database:
   type: sqlite3
