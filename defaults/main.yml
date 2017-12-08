@@ -14,6 +14,7 @@ grafana_dir_plugins: /var/lib/grafana/plugins
 grafana_http_port: 3000
 grafana_group: grafana
 grafana_user: grafana
+grafana_pid_file_dir: /var/run
 
 grafana_database:
   type: sqlite3
@@ -96,3 +97,4 @@ grafana_default:
   max_open_files: 10000
   plugins_dir: "{{ grafana_dir_plugins }}"
   restart_on_upgrade: 'false'
+  pid_file_dir: "{{ grafana_pid_file_dir }}"
