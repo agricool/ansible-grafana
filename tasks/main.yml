@@ -44,7 +44,7 @@
 
 - name: ensure grafana is installed
   apt:
-    name=grafana
+    name=grafana={{ grafana_version }}
     state=present
   become: yes
   tags: installation
