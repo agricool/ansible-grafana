@@ -37,6 +37,7 @@
 - **grafana_conf_data**: the contents of [Grafana][grafana]'s configuration file.
 - **grafana_default**: the contents of [Grafana][grafana]'s init script environment. 
 - **grafana_dir_conf**: the directory where the [Grafana][grafana] configuration file will be stored.
+- **grafana_dir_conf_provisioning**: the directory where the [Grafana][grafana] configuration provisiniong files will be stored.
 - **grafana_dir_data**: the directory where the [Grafana][grafana] data will be stored.
 - **grafana_dir_home**: the [Grafana][grafana] home directory.
 - **grafana_dir_log**: the directory where the [Grafana][grafana] log files will be stored.
