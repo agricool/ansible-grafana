@@ -17,6 +17,7 @@
     - grafana_conf_file
     - grafana_default
     - grafana_dir_conf
+    - grafana_dir_conf_provisioning
     - grafana_dir_data
     - grafana_dir_home
     - grafana_dir_log
